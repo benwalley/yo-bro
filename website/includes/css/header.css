@@ -1,11 +1,10 @@
 body{
 	margin:0;
-	height:1000px;
-	background-image:url("https://keithroysdon.files.wordpress.com/2014/05/guardians-of-the-galaxy-new-poster.jpg");
+
 }
 
 #navbar{
-	position:fixed;
+	position:absolute;
 /*	padding-top:1%;
 	padding-bottom:1%;*/
 /*	height:10vh;*/
@@ -123,24 +122,24 @@ text-shadow:.25px .25px .25px #a76262; */
 	text-decoration:none;
 	color:black;
 	text-align:center;
-	font-size:5vw;
+	font-size:6.5vw;
 	font-family: 'Libre Franklin', sans-serif;
 
 }
 
 .smallLink{
-	padding:20px;
+	display:none;
+	padding:30px;
 	background-image:linear-gradient(rgba(225,225,225,0.9),rgba(192, 192, 192, 0.9));
 
 }
 
 .navSmall{
-	display:none;
 	position:fixed;
 	margin-top:135px;
 
-	width:80%;
-	margin-left:10%;
+	width:90%;
+	margin-left:5%;
 	float:left;
 	text-align:center;
    

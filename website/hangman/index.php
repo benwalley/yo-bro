@@ -4,15 +4,22 @@
 	<title>PLAY HANGMAN!</title>
 	<link rel="stylesheet" type="text/css" href="css/gameplay.css">
 	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
-</head>
-<body>
-	<div class = "links">
-		<a href="http://yobrostudios.com">Home Page</a>
-	</div>
-	
 
+
+
+<?php include("../includes/header.html"); ?>
+
+
+<div class = "topSpacer"></div>
+	
+<div id = "main">
 	<h1>HANGMAN!</h1>
 
+<div id = "gameplay">
+		<img src="images/hangman1.jpg">
+
+
+	</div>
 	
 
 	<div id = "remaining">
@@ -45,11 +52,7 @@
 		<span class = "remaining" id = "25">z</span>
 	</div>
 
-	<div id = "gameplay">
-		<img src="images/hangman1.jpg">
-
-
-	</div>
+	
 
 	<div id = "guessed">
 		<span class = "guessLetter"></span>
@@ -83,7 +86,7 @@
 		
 	</div>
 	<button>Restart</button>
-
+</div>
 
 	<script type="text/javascript" src = "js/gameplay.js"></script>
 </body>
