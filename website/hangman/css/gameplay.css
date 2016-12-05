@@ -1,6 +1,4 @@
-body {
 
-}
 
 input {
 	float:left;
@@ -67,22 +65,18 @@ input {
 	}
 }
 
-
 button:hover{
-
 	background: linear-gradient(90deg,  darkgreen, green);
 }
 
 img{
 	width:100%;
-
 }
 
 #main{
 	width:80%;
 	margin-left:10%;
 }
-
 
 @media (orientation:landscape) {
 	.topSpacer{
@@ -152,7 +146,6 @@ img{
 	}
 }
 
-
 .guessLetter {
 	font-size:4vw;
 	margin:10px;
@@ -164,7 +157,6 @@ img{
 		font-size:4vw;
 		margin:10px;
 		color:blue;
-
 	}
 
 	#guessed {
@@ -188,10 +180,6 @@ img{
 	}
 }
 
-
-
-
-
 @media (orientation: landscape){
 	#remaining {
 		font-size:3vw;
@@ -208,7 +196,6 @@ img{
 		padding-bottom:5px;
 		cursor:pointer;
 	}
-
 }
 @media (orientation: portrait){
 	#remaining {
@@ -226,29 +213,15 @@ img{
 		padding-bottom:5px;
 		cursor:pointer;
 	}
-
 }
-
-
-
-
-
-
-
-
 
 .remaining:hover {
 	color:#429E7F;
-
-
 }
 
 .invisible {
 	visibility:hidden;
 }
-
-
-
 
 .wrong{
 	margin:5px;
