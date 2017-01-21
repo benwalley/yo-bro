@@ -22,11 +22,21 @@
 		<div id = "backCover">
 			<p id = "jokeTitle">Joke of the Day!</p>
 			<div id = "jokeText"></div>
-			<a href="lester" id = "moreJokes">Wanna see more awesome jokes <i class="fa fa-angle-double-right" aria-hidden="false"></i></a>
+			<a href="lester" id = "moreJokes">More jokes <i class="fa fa-angle-double-right" aria-hidden="false"></i></a>
 		</div>
 	</div>
 
+	<h1 id = "vidTitle">My Videos</h1>
 
+	<iframe class = "video" src="https://www.youtube.com/embed/SUNkOlwfLrw" frameborder="0" allowfullscreen></iframe>
+
+	<iframe class = "video" src="https://www.youtube.com/embed/YgwI6_W0-gQ" frameborder="0" allowfullscreen></iframe>
+
+	<iframe class = "video" src="https://www.youtube.com/embed/dDZDYnF6SRE" frameborder="0" allowfullscreen></iframe>
+
+	<iframe class = "video" src="https://www.youtube.com/embed/gGHOhEvY5FA" frameborder="0" allowfullscreen></iframe>
+
+<div class = "copyright"> copyright &copy; 2016 Ben Walley</div>
 
 
 
